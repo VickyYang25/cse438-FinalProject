@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E3FA58B2AFC06FD00B2DF34 /* DailyItinararyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FA58A2AFC06FD00B2DF34 /* DailyItinararyPage.swift */; };
+		5E3FA58D2AFC077E00B2DF34 /* HotelPreferencePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3FA58C2AFC077E00B2DF34 /* HotelPreferencePage.swift */; };
 		C6CD2B2A2AF5A42C00F74491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CD2B292AF5A42C00F74491 /* AppDelegate.swift */; };
 		C6CD2B2C2AF5A42C00F74491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CD2B2B2AF5A42C00F74491 /* SceneDelegate.swift */; };
 		C6CD2B2E2AF5A42C00F74491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CD2B2D2AF5A42C00F74491 /* ViewController.swift */; };
 		C6CD2B312AF5A42C00F74491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CD2B2F2AF5A42C00F74491 /* Main.storyboard */; };
 		C6CD2B332AF5A42D00F74491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6CD2B322AF5A42D00F74491 /* Assets.xcassets */; };
 		C6CD2B362AF5A42D00F74491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6CD2B342AF5A42D00F74491 /* LaunchScreen.storyboard */; };
+		DC9582802AFB36BC005D52B8 /* StartingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC95827F2AFB36BC005D52B8 /* StartingPage.swift */; };
+		DC9582822AFB46FB005D52B8 /* GeneralInputPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9582812AFB46FB005D52B8 /* GeneralInputPage.swift */; };
+		DC9582862AFB5F03005D52B8 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9582852AFB5F03005D52B8 /* Functions.swift */; };
+		DC9582882AFFFA46005D52B8 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9582872AFFFA46005D52B8 /* DataStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E3FA58A2AFC06FD00B2DF34 /* DailyItinararyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyItinararyPage.swift; sourceTree = "<group>"; };
+		5E3FA58C2AFC077E00B2DF34 /* HotelPreferencePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelPreferencePage.swift; sourceTree = "<group>"; };
 		C6CD2B262AF5A42C00F74491 /* Tourify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CD2B292AF5A42C00F74491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6CD2B2B2AF5A42C00F74491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		C6CD2B322AF5A42D00F74491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6CD2B352AF5A42D00F74491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6CD2B372AF5A42D00F74491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC95827F2AFB36BC005D52B8 /* StartingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingPage.swift; sourceTree = "<group>"; };
+		DC9582812AFB46FB005D52B8 /* GeneralInputPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInputPage.swift; sourceTree = "<group>"; };
+		DC9582852AFB5F03005D52B8 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DC9582872AFFFA46005D52B8 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				C6CD2B292AF5A42C00F74491 /* AppDelegate.swift */,
 				C6CD2B2B2AF5A42C00F74491 /* SceneDelegate.swift */,
 				C6CD2B2D2AF5A42C00F74491 /* ViewController.swift */,
+				DC9582872AFFFA46005D52B8 /* DataStructures.swift */,
+				DC95827F2AFB36BC005D52B8 /* StartingPage.swift */,
+				DC9582812AFB46FB005D52B8 /* GeneralInputPage.swift */,
+				DC9582852AFB5F03005D52B8 /* Functions.swift */,
 				C6CD2B2F2AF5A42C00F74491 /* Main.storyboard */,
 				C6CD2B322AF5A42D00F74491 /* Assets.xcassets */,
 				C6CD2B342AF5A42D00F74491 /* LaunchScreen.storyboard */,
 				C6CD2B372AF5A42D00F74491 /* Info.plist */,
+				5E3FA58A2AFC06FD00B2DF34 /* DailyItinararyPage.swift */,
+				5E3FA58C2AFC077E00B2DF34 /* HotelPreferencePage.swift */,
 			);
 			path = Tourify;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC9582882AFFFA46005D52B8 /* DataStructures.swift in Sources */,
 				C6CD2B2E2AF5A42C00F74491 /* ViewController.swift in Sources */,
 				C6CD2B2A2AF5A42C00F74491 /* AppDelegate.swift in Sources */,
+				DC9582802AFB36BC005D52B8 /* StartingPage.swift in Sources */,
+				DC9582822AFB46FB005D52B8 /* GeneralInputPage.swift in Sources */,
+				5E3FA58D2AFC077E00B2DF34 /* HotelPreferencePage.swift in Sources */,
 				C6CD2B2C2AF5A42C00F74491 /* SceneDelegate.swift in Sources */,
+				DC9582862AFB5F03005D52B8 /* Functions.swift in Sources */,
+				5E3FA58B2AFC06FD00B2DF34 /* DailyItinararyPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
